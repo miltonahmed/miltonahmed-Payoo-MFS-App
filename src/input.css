@@ -4,4 +4,6 @@
 
 @theme {
   --font-outfit: 'Outfit', sans-serif;
+  --color-bg-color: #f4f5f7;
+  --color-textPrimary: #080808;
 }

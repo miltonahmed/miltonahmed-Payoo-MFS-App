@@ -8,10 +8,33 @@
   <link href="./output.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="font-outfit">
   <!-- Home Page  -->
-  <section></section>
+  <section class="w-[450px] mx-auto ">
+    <div class="bg-bg-color h-screen flex justify-center items-center flex-col rounded-2xl">
+      <div class="w-[300px] h-[130px] bg-[url(../assets/images/bg.png)] bg-cover flex justify-center items-center">
+        <img src="../assets/images/Group.png" alt="">
+      </div>
+      <form action="" class=" flex gap-4 flex-col bg-white p-8  rounded-3xl">
+        <div>
+          <label for="" class="text-base font-semibold text-textPrimary mb-4 inline-block">Mobile Number</label>
+          <br>
+          <input type="text" placeholder="Enter Your Number"
+            class="bg-bg-color text-textPrimary/40 px-4 py-5 border-0 rounded-3xl text-base font-light">
+        </div>
+        <div>
+          <label for="" class="text-base font-semibold text-textPrimary mb-4 inline-block ">4 Digit Pin</label>
+          <br>
+          <input type="text" placeholder="Enter Your Pin"
+            class="bg-bg-color text-textPrimary/40 px-4 py-5 border-0 rounded-3xl text-base font-light">
+        </div>
+        <button type="button" class="px-3.5 py-5 bg-blue-600 rounded-4xl text-lg font-medium text-white">Login</button>
+      </form>
+    </div>
+  </section>
 
+
+  <script src="script.js"></script>
 </body>
 
 </html>
